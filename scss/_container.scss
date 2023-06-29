@@ -1,0 +1,54 @@
+@use 'global' as *;
+
+.gridContainer {
+    background-color: $fondo;
+    text-align: center;
+    padding: 5% 10%;
+    
+    .tarjetas {
+        margin-top: 70px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+        .card {
+            background-color: #fff;
+            border: 1px solid;
+            border-radius: 5px;
+            margin-left: 20px;
+            margin-right: 20px;
+            text-align: left;
+            height: 350px;
+            
+        }
+    }
+    h1 {
+        color: $color-secundario;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 60px;
+        font-weight: 400;
+        font-family: "Alegreya", serif;
+        margin-bottom: 8px;
+    }
+    p{
+        max-width: 60%;
+        color: #46484c;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+    .buttonExplore {
+        color: $fondo;
+        background-color: $color-secundario;
+        padding: 12px 14px 12px 14px;
+        border: 0;
+        border-radius: 10px;
+      }  
+  }
+ 
+
+ 
+  
+  
